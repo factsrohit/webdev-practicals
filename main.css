@@ -1,0 +1,25 @@
+.challenge3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    width: 100%; /* Flex container width */
+    height: 60%;
+    border: 2px solid black;  
+    gap: 10px; 
+    align-items: stretch;
+}
+
+.cards p{
+    color: rgb(144, 0, 255);
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 5px;
+    flex:1 0 50px; /* Flex item width=50 */
+}
+
+.cards .special_card{
+    background-color: aquamarine;
+    flex: 3 0 50px;
+}

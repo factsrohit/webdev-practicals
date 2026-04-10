@@ -1,0 +1,16 @@
+body {
+    background: linear-gradient(to right, rgb(71, 2, 101), black);
+    color:white;
+    font-size: 18px;
+}
+div div {
+    margin: 5px;
+    flex: 0 0 minmax(200px,20%);
+    border: cyan 2px dotted;
+    border-radius: 5%;
+    padding : 5px;
+}
+#console-output {
+    display: flex;
+    flex-wrap: wrap;
+}

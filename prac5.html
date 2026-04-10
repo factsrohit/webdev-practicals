@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!---statement : design a personal profile webpage for a student or faculty member with customised style-->
+<!---for typography, color scheme, and layout using flexbox and grid system for responsiveness -->
+<html>
+
+<head>
+    <title>
+        practical 5
+    </title>
+    <link rel="stylesheet" href="prac5.css">
+</head>
+
+<body>
+    <h1 class="heading flexbox">
+        Personal Profile
+        <img class="profileimg" src="image.png" alt="profile picture">
+    </h1>
+    <nav class="navbox">
+        <ul class="navbar">
+            <li><a href="#personal-info">Personal Info</a></li>
+            <li><a href="#academic-info">Academic Info</a></li>
+            <li><a href="#course-info">Courses Completed</a></li>
+        </ul>
+    </nav>
+
+
+
+    <div class="flexbox">
+
+        <div class="flex-item">
+            <section id="personal-info">
+                <B><u>Personal Information</u></B>
+                <p>Name: Rohit Pattanaik</p>
+                <p>Age: 20 yrs</p>
+                <p>College Student</p>
+            </section>
+        </div>
+
+        <div class="flex-item">
+            <section id="academic-info">
+                <b><u>Academic Information</u></b>
+                <p>
+                    Program : B.Tech in Computer Science and Engineering
+                </p>
+                <p>
+                    Year : 2nd Year
+                </p>
+                <p>
+                    semester: 4th Semester
+                </p>
+            </section>
+        </div>
+
+
+        <div class="flex-item">
+            <section id="course-info">
+                <p> <b>Some Completed Courses: </b></p>
+                <div class="grid">
+                    <div class="grid-item">Programming in C</div>
+                    <div class="grid-item">OOPs Using CPP</div>
+                    <div class="grid-item">Programming in Java</div>
+                    <div class="grid-item">MPMC</div>
+                    <div class="grid-item">DSA</div>
+                    <div class="grid-item">ADA</div>
+                    <div class="grid-item">DBMS</div>
+                    <div class="grid-item">Maths</div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <footer>
+        contact number : +9876543210
+        <br>
+        email address : xyz@google.com
+    </footer>
+</body>
+
+</html>

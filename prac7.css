@@ -1,0 +1,16 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+}
+
+select,
+button {
+    padding: 8px;
+    margin-top: 10px;
+}
+
+#output {
+    margin-top: 20px;
+    font-size: 18px;
+    color: blue;
+}

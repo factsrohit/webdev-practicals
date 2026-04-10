@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#count {
+    color: blue;
+    font-weight: bold;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    color:white;
+}
+
+#inc {
+    background-color: blue;
+}
+
+#dec {
+    background-color: orangered;
+}
+
+#reset {
+    background-color: lightblue;
+}
+
+button:hover {
+    opacity: 0.8;
+}
