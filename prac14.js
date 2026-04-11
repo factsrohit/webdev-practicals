@@ -15,6 +15,18 @@ const server = http.createServer((req, res) => {
                 res.end(data);
             }
         });
+    }else if (req.url === '/prac14.css') {
+        const filePath = path.join(__dirname, 'prac14.css');
+
+        fs.readFile(filePath, (err, data) => {
+            if (err) {
+                res.writeHead(500);
+                res.end('Error loading file');
+            } else {
+                res.writeHead(200, { 'Content-Type': 'text/css' });
+                res.end(data);
+            }
+        });
     } else {
         res.writeHead(404);
         res.end('Not Found');
